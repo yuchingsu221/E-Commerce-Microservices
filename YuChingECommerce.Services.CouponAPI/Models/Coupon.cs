@@ -1,9 +1,14 @@
-﻿namespace ECommerce.Services.CouponAPI.Models.Dto
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace YuChingECommerce.Services.CouponAPI.Models
 {
-    public class CouponDto
+    public class Coupon
     {
+        [Key]
         public int CouponId { get; set; }
+        [Required]
         public string CouponCode { get; set; }
+        [Required]
         public double DiscountAmount { get; set; }
         public int MinAmount { get; set; }
     }
