@@ -31,8 +31,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\YuChingECommerce.MessageBus\YuChingECommerce.MessageBus.csproj" />
-		<ProjectReference Include="..\YuChingECommerce.Services.AuthAPI\YuChingECommerce.Services.AuthAPI.csproj" />
-		<ProjectReference Include="..\YuChingECommerce.Services.CouponAPI\YuChingECommerce.Services.CouponAPI.csproj" />
 	</ItemGroup>
 
 </Project>
